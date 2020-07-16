@@ -1,5 +1,5 @@
 {
-    "name": "nfephp-org/sped-nfse-egoverne",
+    "name": "troliveira/sped-nfse-egoverne",
     "type": "library",
     "description": "API para geração e comunicação de RPS e NFSe no padão E-Governe.",
     "keywords": ["nfe","nfse","sped","nfephp"],
