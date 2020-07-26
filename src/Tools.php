@@ -69,7 +69,9 @@ class Tools extends BaseTools
         $signed = $this->sign($pedido, 'InfPedidoCancelamento', '');
         
         $content .= "<CancelarNfseEnvio xmlns=\"{$this->wsobj->msgns}\">";
-        $content .=     "<CancelarNfseEnvio>{$signed}</CancelarNfseEnvio>";
+		# Curitiba deve informar tag Pedido direto, sem estar dentro de CancelarNFseEnvio
+		//$content .=     "<CancelarNfseEnvio>{$signed}</CancelarNfseEnvio>";
+        $content .=     "{$signed}";
         $content .= "</CancelarNfseEnvio>";
         
         Validator::isValid($content, $this->xsdpath);
