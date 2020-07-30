@@ -46,6 +46,8 @@ class Standardize
         'ConsultarLoteRpsResposta',
         'ConsultarNfseResposta',
         'ConsultarNfsePorRpsResult', # Curitiba
+        'RecepcionarLoteRpsResponse',
+        'ConsultarLoteRpsResponse',
         'ConsultarNfseFaixaResposta',
         'ConsultarNfseRpsResposta',
         'EnviarLoteRpsResposta',
