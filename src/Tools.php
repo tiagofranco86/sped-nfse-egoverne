@@ -274,7 +274,7 @@ class Tools extends BaseTools
      */
     public function recepcionarXml($metodo, $xml)
     {              
-        Validator::isValid($xml, $this->xsdpath);
+        //Validator::isValid($xml, $this->xsdpath);
         
         return $this->send($xml, $metodo);
     }
