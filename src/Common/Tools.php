@@ -41,7 +41,7 @@ class Tools
             'homologacao' => 'https://piloto-iss.curitiba.pr.gov.br/nfse_ws/NfseWs.asmx',
             'producao' => 'https://srv2-isscuritiba.curitiba.pr.gov.br/Iss.NfseWebService/nfsews.asmx',
             'version' => '2.01',
-            'msgns' => 'http://srv2-isscuritiba.curitiba.pr.gov.br/iss/nfse.xsd',
+            'msgns' => 'http://isscuritiba.curitiba.pr.gov.br/iss/nfse.xsd',
             'soapns' => 'http://www.e-governeapps2.com.br'
         ]
     ];
