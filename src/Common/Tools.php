@@ -42,7 +42,7 @@ class Tools
             'producao' => 'https://srv2-isscuritiba.curitiba.pr.gov.br/Iss.NfseWebService/nfsews.asmx',
             'version' => '2.01',
             'msgns' => 'http://isscuritiba.curitiba.pr.gov.br/iss/nfse.xsd',
-            'soapns' => 'http://www.e-governeapps2.com.br'
+            'soapns' => 'https://www.e-governeapps2.com.br'
         ]
     ];
     
